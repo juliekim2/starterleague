@@ -61,28 +61,31 @@ font-family: helvetica, arial, sans-serif;
 /*Name*/
 h1 {
 font-family: helvetica, arial, sans-serif;
-	font-size: 36px;
+	font-size: 50px;
 	background: #003366;
 	color: #FFFFFF;
 	margin-left: 5px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
 
 }
 
- .navcontainer ul
-{
-margin: 0;
-padding: 5pt;
-list-style-type: none;
+ .navcontainer ul {
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+	border-bottom: 1px solid red;
+	text-align: center;
 }
 
-.navcontainer ul li
-{display: inline-block}
+.navcontainer ul li {
+	display: inline-block
+}
 
 		
 /*email*/
-div{
+div {
 	font-family: helvetica, arial, sans-serif;
 	padding-left: 150px;
    color: #595951;
