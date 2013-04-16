@@ -49,18 +49,18 @@ table {
 
 body {
 	background: #fff;
+  font-family: helvetica, arial, sans-serif;
 }
 
 p {
-font-family: helvetica, arial, sans-serif;
 	font-size: 16px;
 	color: #2C2E38;
-	margin-left: 150px;
+  margin-left: 150px;
+  padding-top: 10px;
 }
 
 /*Name*/
 h1 {
-font-family: helvetica, arial, sans-serif;
 	font-size: 50px;
 	background: #003366;
 	color: #FFFFFF;
@@ -75,7 +75,7 @@ font-family: helvetica, arial, sans-serif;
 	margin: 0;
 	padding: 5px;
 	list-style-type: none;
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid #003366;
 	text-align: center;
 }
 
@@ -83,18 +83,15 @@ font-family: helvetica, arial, sans-serif;
 	display: inline-block
 }
 
-		
-/*email*/
-div {
-	font-family: helvetica, arial, sans-serif;
-	padding-left: 150px;
-   color: #595951;
 
+/*email and twitter*/
+.contact {
+	padding-left: 150px;
+  color: #595951;
 }
 
 /*About, Contact, Education, SKills, Experience*/
 h2 {
-   font-family: helvetica, arial, sans-serif;
    font-size: 20px;
    color: #778899;
    margin-left: 5px;
@@ -103,7 +100,6 @@ h2 {
 }
 /*Job Title*/
 h3 {
-   font-family: helvetica, arial, sans-serif;
    font-size: 18px;
    font-weight: bold;
    color: #2C2E38;
@@ -113,7 +109,6 @@ h3 {
 
 /*Where worked and year*/
 h4 {
-   font-family: helvetica, arial, sans-serif;
    font-size: 18px;
    color: #2C2E38;
    margin-left: 150px;
@@ -128,7 +123,17 @@ ul {
    color: #595951;
  }
 
- div
-.post-date {
+.familyimage{
+  width: 300px;
+  text-align: center;
+  margin-top: 50px;
 }
 
+.center{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.journalpost{
+  margin-left: 0px;
+}
