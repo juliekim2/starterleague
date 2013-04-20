@@ -53,17 +53,15 @@ body {
 }
 
 p {
-	font-size: 16px;
 	color: #2C2E38;
-  margin-left: 150px;
-  padding-top: 10px;
+	font-size: 16px;
 }
 
 /*Name*/
 h1 {
-	font-size: 50px;
 	background: #003366;
 	color: #FFFFFF;
+	font-size: 50px;
 	margin-left: 5px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -72,11 +70,11 @@ h1 {
 }
 
  .navcontainer ul {
-	margin: 0;
-	padding: 5px;
-	list-style-type: none;
 	border-bottom: 1px solid #003366;
-	text-align: center;
+	list-style-type: none;
+	margin: 0;
+  text-align: center;
+  padding: 5px 0;
 }
 
 .navcontainer ul li {
@@ -84,56 +82,83 @@ h1 {
 }
 
 
-/*email and twitter*/
-.contact {
-	padding-left: 150px;
-  color: #595951;
-}
-
 /*About, Contact, Education, SKills, Experience*/
 h2 {
-   font-size: 20px;
-   color: #778899;
-   margin-left: 5px;
-   margin-top:20px;
-   margin-bottom: 10px;
+   /*color: #778899;*/
+   color: #003366;
+   font-size: 25px;
 }
+
 /*Job Title*/
 h3 {
+   color: #2C2E38;
    font-size: 18px;
    font-weight: bold;
-   color: #2C2E38;
-   margin-left: 150px;
-   margin-top: 20px;
+   padding-top: 10px;
 }
 
 /*Where worked and year*/
 h4 {
-   font-size: 18px;
    color: #2C2E38;
-   margin-left: 150px;
-   margin-bottom: 5px;
+   font-size: 18px;
 }
 
 ul {
+   color: #595951;
    list-style-image: none;
    list-style-position: outside;
    list-style-type: disc;
-   padding-left: 170px;
-   color: #595951;
- }
+   padding-left: 18px;
+}
 
-.familyimage{
+.familyimage {
+  margin-top: 50px;
+  text-align: center;
   width: 300px;
-  text-align: center;
-  margin-top: 50px;
 }
 
-.center{
-  text-align: center;
+.center {
   margin-top: 50px;
+  text-align: center;
 }
 
-.journalpost{
+.journalpost {
   margin-left: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  border: 1px solid black;
+}
+
+.group {
+  *zoom: 1;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.resumesection {
+  /*background-color: green;*/
+  float: left;
+  margin: 10px 0;
+  width: 240px;
+}
+
+.resumedescription {
+  /*background-color: blue;*/
+  float: right;
+  padding: 10px 0;
+  width: 720px;
+
+.divider {
+  border-bottom: 2px solid black;
 }
