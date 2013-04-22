@@ -35,7 +35,7 @@ ol, ul {
 	list-style: none;
 }
 blockquote, q {
-	quotes: nosne;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -69,7 +69,7 @@ h1 {
 
 }
 
- .navcontainer ul {
+.navcontainer ul {
 	border-bottom: 1px solid #003366;
 	list-style-type: none;
 	margin: 0;
@@ -81,10 +81,8 @@ h1 {
 	display: inline-block
 }
 
-
 /*About, Contact, Education, SKills, Experience*/
 h2 {
-   /*color: #778899;*/
    color: #003366;
    font-size: 25px;
 }
@@ -113,52 +111,68 @@ ul {
 
 .familyimage {
   margin-top: 50px;
-  text-align: center;
+  /*text-align: center;*/
   width: 300px;
 }
 
 .center {
-  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
   text-align: center;
 }
 
-.journalpost {
-  margin-left: 0px;
-}
-
-.container {
+/*.container {
+  max-width: 960px;
   margin: 0 auto;
-  width: 960px;
   border: 1px solid black;
-}
+}*/
 
-.group {
-  *zoom: 1;
-}
 
+/*
+  Clearfix
+*/
 .group:before,
 .group:after {
   content: "";
   display: table;
 }
-
 .group:after {
   clear: both;
 }
+.group {
+  clear: both;
+  *zoom: 1;
+}
 
-.resumesection {
-  /*background-color: green;*/
+.col-1, .col-2 {
   float: left;
   margin: 10px 0;
+}
+
+.col-1 {
+  /*background-color: green;*/
   width: 240px;
 }
 
-.resumedescription {
+.col-2 {
   /*background-color: blue;*/
-  float: right;
-  padding: 10px 0;
   width: 720px;
+}
 
 .divider {
-  border-bottom: 2px solid black;
+   border-bottom: 1px solid #003366;
 }
+
+.main-footer {
+  border-top: 1px solid #003366;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main-footer ul li {
+  display: inline-block
+}
+
+
