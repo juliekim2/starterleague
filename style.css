@@ -47,9 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+
+/*MyCSS*/
+
 body {
 	background: #fff;
-  font-family: helvetica, arial, sans-serif;
+  line-height: 24px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 p {
@@ -66,25 +70,16 @@ h1 {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
-
+  font-family: helvetica, arial, sans-serif;
 }
 
-.navcontainer ul {
-	border-bottom: 1px solid #003366;
-	list-style-type: none;
-	margin: 0;
-  text-align: center;
-  padding: 5px 0;
-}
 
-.navcontainer ul li {
-	display: inline-block
-}
 
 /*About, Contact, Education, SKills, Experience*/
 h2 {
    color: #003366;
    font-size: 25px;
+   font-family: helvetica, arial, sans-serif;
 }
 
 /*Job Title*/
@@ -93,12 +88,14 @@ h3 {
    font-size: 18px;
    font-weight: bold;
    padding-top: 10px;
+   font-family: helvetica, arial, sans-serif;
 }
 
 /*Where worked and year*/
 h4 {
    color: #2C2E38;
    font-size: 18px;
+   font-family: helvetica, arial, sans-serif;
 }
 
 ul {
@@ -111,7 +108,6 @@ ul {
 
 .familyimage {
   margin-top: 50px;
-  /*text-align: center;*/
   width: 300px;
 }
 
@@ -121,16 +117,34 @@ ul {
   text-align: center;
 }
 
-/*.container {
-  max-width: 960px;
+.container {
+  width: 960px;
   margin: 0 auto;
-  border: 1px solid black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.home, .home-2 {
+  margin: 0 120px;
+}
+
+.home {
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+/*.home-2 {
+  color: #003366;
+  padding-top: 40px;
 }*/
 
+.divider {
+   border-bottom: 1px solid #003366;
+}
 
-/*
-  Clearfix
-*/
+
+/*Clearfix*/
 .group:before,
 .group:after {
   content: "";
@@ -144,6 +158,7 @@ ul {
   *zoom: 1;
 }
 
+/*Columns*/
 .col-1, .col-2 {
   float: left;
   margin: 10px 0;
@@ -159,20 +174,46 @@ ul {
   width: 720px;
 }
 
-.divider {
-   border-bottom: 1px solid #003366;
+
+
+/*links*/
+
+
+a {
+  text-decoration: none;
 }
 
-.main-footer {
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.navcontainer ul {
+  border-bottom: 1px solid #003366;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0; 
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.navcontainer li {
+  display: inline;
+  padding-right: 5px;
+}
+
+.main-footer ul {
   border-top: 1px solid #003366;
   list-style-type: none;
   margin: 0;
-  text-align: center;
   padding: 20px 0;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
 }
 
-.main-footer ul li {
-  display: inline-block
+.main-footer li {
+  display: inline;
+  padding-right: 10px;
 }
 
 
