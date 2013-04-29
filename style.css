@@ -66,9 +66,7 @@ h1 {
 	background: #003366;
 	color: #FFFFFF;
 	font-size: 50px;
-	margin-left: 5px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px 0;
 	text-align: center;
   font-family: helvetica, arial, sans-serif;
 }
@@ -120,29 +118,22 @@ ul {
 .container {
   width: 960px;
   margin: 0 auto;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.home, .home-2 {
-  margin: 0 120px;
-}
+  padding: 20px 0;
+  }
 
 .home {
   font-size: 20px;
   line-height: 30px;
+  margin: 0 120px;
   padding-top: 20px;
 }
-
-/*.home-2 {
-  color: #003366;
-  padding-top: 40px;
-}*/
 
 .divider {
    border-bottom: 1px solid #003366;
 }
-
+.block {
+  display: block;
+}
 
 /*Clearfix*/
 .group:before,
@@ -165,19 +156,14 @@ ul {
 }
 
 .col-1 {
-  /*background-color: green;*/
   width: 240px;
 }
 
 .col-2 {
-  /*background-color: blue;*/
   width: 720px;
 }
 
-
-
 /*links*/
-
 
 a {
   text-decoration: none;
@@ -216,4 +202,68 @@ a:hover {
   padding-right: 10px;
 }
 
+.do {
+  background: #3279A7;
+  border-radius: 60px;
+  color: white;
+  font-family: Geneva, Verdana, arial, helvetica, sans-serif;
+  font-size: 64px;
+  font-variant: small-caps;
+  line-height: 96px;
+  margin: 20px 400px;
+  text-decoration: underline overline;
+  width: 160px;
+  -webkit-transform: rotate(-2deg); 
+  -moz-transform: rotate(-2deg);
+}
 
+.whatcontainer {
+  background: #3279A7;
+  margin-left: 280px;
+  width: 420px;
+  height: 100px;
+}
+
+.whatyou {
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 64px;
+  font-variant: small-caps;
+  font-weight: bold;
+  line-height: 96px;
+  text-align: center;
+  width: 360px;
+}
+
+.circle-1, .circle-2 {
+  border-radius: 90px;
+  background: white;
+  height: 10px;
+  margin-top: 45px;
+  width: 10px;
+}
+
+.circle-1 {
+  margin-left: 20px;
+}
+.circle-2 {
+  margin-right: 20px;
+}
+
+.circle-1, .whatyou, .circle-2 {
+  float: left;
+}
+
+
+.love {
+  border-bottom: 1px;
+  border-top: 1px;
+  border-color: #3279A7;
+  color: #3279A7;
+  font-family: "Franklin Gothic Books", Verdana, arial, helvetica, sans-serif;
+  font-size: 200px;
+  line-height: 220px; 
+  margin-left: 280px;
+  width: 400px;
+}
+ 
