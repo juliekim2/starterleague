@@ -256,14 +256,15 @@ a:hover {
 
 
 .love {
-  border-bottom: 1px;
-  border-top: 1px;
+  border-bottom: 15px;
+  border-top: 15px;
+  border-style: double;
   border-color: #3279A7;
   color: #3279A7;
   font-family: 'BenchNine', sans-serif;
   font-size: 280px;
   line-height: 280px;
   margin-left: 280px;
-  width: 400px;
+  width: 420px;
 }
  
