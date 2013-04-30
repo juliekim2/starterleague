@@ -204,17 +204,17 @@ a:hover {
 
 .do {
   background: #3279A7;
-  border-radius: 60px;
+  border-radius: 90px;
   color: white;
   font-family: Geneva, Verdana, arial, helvetica, sans-serif;
   font-size: 64px;
   font-variant: small-caps;
-  line-height: 96px;
+  line-height: 120px;
   margin: 20px 400px;
   text-decoration: underline overline;
-  width: 160px;
-  -webkit-transform: rotate(-2deg); 
-  -moz-transform: rotate(-2deg);
+  width: 120px;
+  -webkit-transform: rotate(-4deg); 
+  -moz-transform: rotate(-4deg);
 }
 
 .whatcontainer {
@@ -260,9 +260,9 @@ a:hover {
   border-top: 1px;
   border-color: #3279A7;
   color: #3279A7;
-  font-family: "Franklin Gothic Books", Verdana, arial, helvetica, sans-serif;
-  font-size: 200px;
-  line-height: 220px; 
+  font-family: 'BenchNine', sans-serif;
+  font-size: 280px;
+  line-height: 280px;
   margin-left: 280px;
   width: 400px;
 }
