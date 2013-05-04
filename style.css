@@ -65,7 +65,7 @@ p {
 h1 {
 	background: #003366;
 	color: #FFFFFF;
-	font-size: 50px;
+	font-size: 48px;
 	padding: 20px 0;
 	text-align: center;
   font-family: helvetica, arial, sans-serif;
@@ -76,14 +76,14 @@ h1 {
 /*About, Contact, Education, SKills, Experience*/
 h2 {
    color: #003366;
-   font-size: 25px;
+   font-size: 22px;
    font-family: helvetica, arial, sans-serif;
 }
 
 /*Job Title*/
 h3 {
    color: #2C2E38;
-   font-size: 18px;
+   font-size: 19px;
    font-weight: bold;
    padding-top: 10px;
    font-family: helvetica, arial, sans-serif;
@@ -92,7 +92,7 @@ h3 {
 /*Where worked and year*/
 h4 {
    color: #2C2E38;
-   font-size: 18px;
+   font-size: 19px;
    font-family: helvetica, arial, sans-serif;
 }
 
@@ -122,7 +122,7 @@ ul {
   }
 
 .home {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 30px;
   margin: 0 120px;
   padding-top: 20px;
@@ -202,69 +202,5 @@ a:hover {
   padding-right: 10px;
 }
 
-.do {
-  background: #3279A7;
-  border-radius: 90px;
-  color: white;
-  font-family: Geneva, Verdana, arial, helvetica, sans-serif;
-  font-size: 64px;
-  font-variant: small-caps;
-  line-height: 120px;
-  margin: 20px 400px;
-  text-decoration: underline overline;
-  width: 120px;
-  -webkit-transform: rotate(-4deg); 
-  -moz-transform: rotate(-4deg);
-}
 
-.whatcontainer {
-  background: #3279A7;
-  margin-left: 280px;
-  width: 420px;
-  height: 100px;
-}
-
-.whatyou {
-  color: white;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 64px;
-  font-variant: small-caps;
-  font-weight: bold;
-  line-height: 96px;
-  text-align: center;
-  width: 360px;
-}
-
-.circle-1, .circle-2 {
-  border-radius: 90px;
-  background: white;
-  height: 10px;
-  margin-top: 45px;
-  width: 10px;
-}
-
-.circle-1 {
-  margin-left: 20px;
-}
-.circle-2 {
-  margin-right: 20px;
-}
-
-.circle-1, .whatyou, .circle-2 {
-  float: left;
-}
-
-
-.love {
-  border-bottom: 15px;
-  border-top: 15px;
-  border-style: double;
-  border-color: #3279A7;
-  color: #3279A7;
-  font-family: 'BenchNine', sans-serif;
-  font-size: 280px;
-  line-height: 280px;
-  margin-left: 280px;
-  width: 420px;
-}
  

@@ -1,0 +1,89 @@
+.experimentheader { 
+  text-align: left;
+}
+
+.do {
+  background: #3279A7;
+  border-radius: 90px;
+  color: white;
+  font-family: Geneva, Verdana, arial, helvetica, sans-serif;
+  font-size: 64px;
+  font-variant: small-caps;
+  line-height: 120px;
+  margin: 20px 400px;
+  text-align: center;
+  text-decoration: underline overline;
+  width: 120px;
+  -webkit-transform: rotate(-4deg); 
+  -moz-transform: rotate(-4deg);
+}
+
+.whatcontainer {
+  background: #3279A7;
+  margin-left: 280px;
+  width: 420px;
+  height: 100px;
+}
+
+.whatyou {
+  color: white;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 64px;
+  font-variant: small-caps;
+  font-weight: bold;
+  line-height: 96px;
+  text-align: center;
+  width: 360px;
+}
+
+.circle-1, .circle-2 {
+  border-radius: 90px;
+  background: white;
+  height: 10px;
+  margin-top: 45px;
+  width: 10px;
+}
+
+.circle-1 {
+  margin-left: 20px;
+}
+.circle-2 {
+  margin-right: 20px;
+}
+
+.circle-1, .whatyou, .circle-2 {
+  float: left;
+}
+
+
+.love {
+  border-bottom: 15px;
+  border-top: 15px;
+  border-style: double;
+  border-color: #3279A7;
+  color: #3279A7;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 280px;
+  line-height: 280px;
+  margin-left: 280px;
+  width: 420px;
+}
+
+
+.gradients {
+  
+  background: url(http://p.yusukekamiyamane.com/icons/search/fugue/icons-24/light-bulb.png) 15px 50% no-repeat, linear-gradient(to left, #00a0e5 85%, #016d9b 15%);
+  background-color: #1aaae8;
+  border: 1px solid #016d9b;
+  border-radius: 6px;
+  height: 50px;
+  padding: 10px 10px 10px 100px;
+  width: 520px;
+
+/*box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), 0 2px 3px rgba(0, 0, 0, .5);*/
+
+}
+
+p {
+  color: white;
+}
