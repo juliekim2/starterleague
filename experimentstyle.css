@@ -2,9 +2,8 @@
   text-align: left;
 }
 
-.container-2 {
+.containerexperiment {
   margin: 0 auto;
-  width: 960px;
   }
 
 .do {
@@ -15,7 +14,8 @@
   font-size: 64px;
   font-variant: small-caps;
   line-height: 120px;
-  /*margin: 20px 400px;*/
+  margin-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
   text-decoration: underline overline;
   width: 120px;
@@ -25,9 +25,8 @@
 
 .whatcontainer {
   background: #3279A7;
-  /*margin-left: 280px;*/
-  width: 420px;
   height: 100px;
+  width: 420px;
 }
 
 .whatyou {
@@ -81,8 +80,8 @@
   border: 1px solid #016d9b;
   border-radius: 6px;
   height: 50px;
-  /*margin: 10px 40px;*/
-  margin: 20px auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
   padding: 10px 10px 10px 100px;
   width: 500px;
   /*box-shadow: inset 0 1px 30px #00a0e5;*/
