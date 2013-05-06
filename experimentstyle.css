@@ -4,8 +4,45 @@
 
 .containerexperiment {
   margin: 0 auto;
-  }
+}
 
+/*Gradients Experiment*/
+.alertbox {
+  /*border: 1px solid #016d9b;*/
+  border-radius: 6px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px 10px 10px 100px;
+  width: 500px;
+}
+
+.alert-1 {
+  background-color: #00a0e5;
+  background: url("images/bulb.png") 20px 50% no-repeat, linear-gradient(to left, #00a0e5 88%, #016d9b 12%);
+  /*box-shadow: inset 0 1px 30px #00a0e5;*/
+}
+
+.alert-2 {
+  background: url("images/check.png") 20px 50% no-repeat, linear-gradient(to left, #4ade45 88%, #016d9b 12%);
+  background-color: #1aaae8;
+}
+
+.alert-3 {
+  background: url("images/exclamation.png") 28px 50% no-repeat, linear-gradient(to left, #00a0e5 88%, #016d9b 12%);
+  background-color: #1aaae8;
+}
+
+.alert-4 {
+  background: url("images/x.png") 20px 50% no-repeat, linear-gradient(to left, #00a0e5 88%, #016d9b 12%);
+  background-color: #1aaae8;
+}
+
+p {
+  color: white;
+}
+
+/*Typography Experiment*/
 .do {
   background: #3279A7;
   border-radius: 90px;
@@ -74,20 +111,3 @@
 }
 
 
-.gradients {
-  background: url("images/bulb.png") 20px 50% no-repeat, linear-gradient(to left, #00a0e5 88%, #016d9b 12%);
-  background-color: #1aaae8;
-  border: 1px solid #016d9b;
-  border-radius: 6px;
-  height: 50px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding: 10px 10px 10px 100px;
-  width: 500px;
-  /*box-shadow: inset 0 1px 30px #00a0e5;*/
-
-}
-
-p {
-  color: white;
-}
