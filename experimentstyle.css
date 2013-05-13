@@ -37,12 +37,12 @@ h4{
   background-image: url("controlright.png");
 }*/
 
-.arrow{
+.arrow-1{
   float: left;
-  background-image: url("images/exclamation.png") 20px 50% no-repeat;
+  background-image: url("images/exclamation.png");
+  height: 50px;
+  width: 50px;
 }
-
-
 
 .weeks li, .days li{
   float: left;
@@ -53,7 +53,7 @@ h4{
 .weeks li{
   background-color: gray;
   border: solid 1px gray;
-  /*border*/-top: solid 1px gray;
+  border-top: solid 1px gray;
 }
 
 .days li{
