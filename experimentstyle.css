@@ -23,25 +23,33 @@
   background-color: #00a0e5;
   border-radius: 6px 6px 0 0;
   height: 50px;
-  text-align: center;
 }
+
+.arrow-1, .arrow-2{
+  float: left;
+  height: 50px;
+  width: 70px;
+}
+
+.arrow-1{
+  background: url("images/controlbigleft.png") 50% 50% no-repeat;
+  background-size: 25px;
+}
+
+/*Still need to figure out how to fix h4 height to 50px*/
 
 h4{
   color: white;
+  float: left;
+  /*height: 50px;*/
   padding-top: 15px;
+  text-align: center;
+  width: 350px;
 }
 
-/*.testimage{
-  height: 50px;
-  width: 50px;
-  background-image: url("controlright.png");
-}*/
-
-.arrow-1{
-  float: left;
-  background-image: url("images/exclamation.png");
-  height: 50px;
-  width: 50px;
+.arrow-2{
+  background: url("images/controlbigright.png") 50% 50% no-repeat;
+  background-size: 25px;
 }
 
 .weeks li, .days li{
