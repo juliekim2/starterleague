@@ -92,9 +92,11 @@ h4{
 
 .days li{
   border: solid 1px #DEDCDD;
+  border-radius: 6px;
   height: 38px;
   padding-top: 10px;
 }
+
 
 /*Gradients Experiment*/
 .alertbox {
