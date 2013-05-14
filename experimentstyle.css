@@ -10,6 +10,10 @@
 
 .calendarbackground{
   background-color: #F2E7B8;
+  margin: 0 auto;
+  height: 366px;
+  padding-top: 5px;
+  width: 540px;
 }
 
 .calendar{
@@ -20,7 +24,7 @@
 }
 
 .calendarmonth{
-  background-color: #00a0e5;
+  background: #00a0e5;
   border-radius: 6px 6px 0 0;
   height: 50px;
 }
@@ -36,6 +40,29 @@
   background-size: 25px;
 }
 
+.circle-3, circle-4 {
+  
+  border-radius: 90px;
+  height: 6px;
+  margin-left: 30px;
+  width: 6px;
+}
+
+.circle-3 {
+  background: green;
+}
+
+.circle-4 {
+  background: white;
+}
+
+.numcolor{ 
+  color: #00a0e5;
+}
+
+.numbackcolor{
+  background: #00a0e5;
+}
 /*Still need to figure out how to fix h4 height to 50px*/
 
 h4{
@@ -66,7 +93,8 @@ h4{
 
 .days li{
   border: solid 1px gray;
-  height: 48px;
+  height: 38px;
+  padding-top: 10px;
 }
 
 /*Gradients Experiment*/
