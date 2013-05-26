@@ -18,14 +18,14 @@
 
 .calendar{
   background-color: white;
-  border-radius: 6px;
+  border-radius: 10px;
   margin: 20px auto;
+  overflow: hidden;
   width: 490px;
 }
 
 .calendarmonth{
   background: #00a0e5;
-  border-radius: 6px 6px 0 0;
   height: 50px;
 }
 
@@ -40,7 +40,7 @@
   background-size: 25px;
 }
 
-.circle-3, circle-4 {
+.circle-3, .circle-4 {
   
   border-radius: 90px;
   height: 6px;
@@ -62,7 +62,9 @@
 
 .numbackcolor{
   background: #00a0e5;
+  color: white;
 }
+
 /*Still need to figure out how to fix h4 height to 50px*/
 
 h4{
@@ -92,11 +94,13 @@ h4{
 
 .days li{
   border: solid 1px #DEDCDD;
-  border-radius: 6px;
   height: 38px;
   padding-top: 10px;
 }
 
+.days{
+  border-radius: 90px;
+}
 
 /*Gradients Experiment*/
 .alertbox {
@@ -202,7 +206,6 @@ strong{
   font-family: 'BenchNine', sans-serif;
   font-size: 280px;
   line-height: 280px;
-  /*margin-left: 280px;*/
   width: 420px;
 }
 
