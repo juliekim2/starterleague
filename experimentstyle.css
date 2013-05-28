@@ -6,6 +6,20 @@
   margin: 0 auto;
 }
 
+/*Forms Experiment*/
+
+label{
+  display: block;
+  font-weight: bold;
+  margin: 15px 0 10px;
+}
+
+form{
+  background: #f0f0f0;
+  padding: 30px;
+  width: 400px;
+}
+
 /*Lists Experiment*/
 
 .calendarbackground{
@@ -67,7 +81,7 @@
 
 /*Still need to figure out how to fix h4 height to 50px*/
 
-h4{
+.month{
   color: white;
   float: left;
   padding-top: 15px;
@@ -133,7 +147,7 @@ h4{
   background: url("images/x.png") 20px 50% no-repeat, linear-gradient(to left, #ee6367 88%, #ba5053 12%);
 }
 
-p {
+.alert-message {
   color: white;
   font-family: "news gothic", arial, sans-serif;
 }
