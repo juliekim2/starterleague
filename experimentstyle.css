@@ -6,15 +6,82 @@
   margin: 0 auto;
 }
 
+/*Tables Experiment*/
+
+.tablebackground {
+  background-color: yellow;
+  margin: 0 auto;
+/*  height: 366px;
+  padding-top: 5px;
+  width: 540px;*/
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+th, td {
+  vertical-align: top;
+}
+th {
+  background-color: #2F6BFF;
+  border-left: 1px solid #c6c9cc;
+  border-right: 1px solid #c6c9cc;
+  color: #fff;
+  font-size: 12px;
+}
+th.flight, th.depart, th.arrive {
+  padding: 9px 20px 9px 20px;
+  text-align: center;
+}
+td {
+  padding: 8px;
+}
+tbody td {
+  background-color: white;
+  border-bottom: 1px solid #c6c9cc;
+  border-left: 1px solid #c6c9cc;
+  border-right: 1px solid #c6c9cc;
+}
+
+.on {
+  color: #00b515;
+}
+.delay {
+  color: yellow;
+}
+
+.cancel {
+  color: red;
+}
+
+span {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.city {
+  color: #2F6BFF;
+  font-size: 14px;
+}
+
+.airline, .airport {
+  color: gray;
+  font-weight: normal;
+
+}
+
 /*Forms Experiment*/
 
-label{
+label {
   display: block;
   font-weight: bold;
   margin: 15px 0 10px;
 }
 
-form{
+form {
   background: #f0f0f0;
   padding: 30px;
   width: 400px;
@@ -22,7 +89,7 @@ form{
 
 /*Lists Experiment*/
 
-.calendarbackground{
+.calendarbackground {
   background-color: #F2FFB8;
   margin: 0 auto;
   height: 366px;
@@ -30,7 +97,7 @@ form{
   width: 540px;
 }
 
-.calendar{
+.calendar {
   background-color: white;
   border-radius: 10px;
   margin: 20px auto;
@@ -38,18 +105,18 @@ form{
   width: 490px;
 }
 
-.calendarmonth{
+.calendarmonth {
   background: #00a0e5;
   height: 50px;
 }
 
-.arrow-1, .arrow-2{
+.arrow-1, .arrow-2 {
   float: left;
   height: 50px;
   width: 70px;
 }
 
-.arrow-1{
+.arrow-1 {
   background: url("images/controlbigleft.png") 50% 50% no-repeat;
   background-size: 25px;
 }
@@ -202,6 +269,7 @@ strong{
 .circle-1 {
   margin-left: 20px;
 }
+
 .circle-2 {
   margin-right: 20px;
 }
@@ -209,7 +277,6 @@ strong{
 .circle-1, .whatyou, .circle-2 {
   float: left;
 }
-
 
 .love {
   border-bottom: 15px;

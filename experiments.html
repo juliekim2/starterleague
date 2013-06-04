@@ -3,9 +3,9 @@
   <head>
     <link href='http://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="experimentstyle.css">
-
 
     <title>Julie's Experiments</title>
   </head>
@@ -19,33 +19,85 @@
       <li><a href="about.html">About</a></li>
       <li><a href="experiments.html">Experiments</a></li>
       <li><a href="journal.html">Journal</a></li>
+      <!-- <li><a href="form.html">SampleForm</a></li> -->
+
     </ul>
     </nav>
   </header>
 
-  
+    <div class="container">
+
+    <section class="divider">
+      <h3 class="experimentheader">Tables</h3>
+
+      <div class="tablebackground">
+      <table>
+        <thead>
+          <tr>
+            <th class="flight">Flight</th>
+            <th class="depart">Departure</th>
+            <th class="arrive">Arrival</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="flight">1341 <span class="airline">American Airlines</span> <span class="status on">On Time</span></td>
+            <td class="depart">7:05 AM<span class="city">Chicago, IL</span> <span class="airport">Chicago O'Hare Internation Airport (ORD)</span></td>
+            <td class="arrive">9:55 AM<span class="city">San Francisco, CA</span> <span class="airport">San Francisco Internation Airport (SFO)</span></td>
+          </tr>
+          <tr>
+            <td class="flight">658 <span class="airline">American Airlines</span> <span class="status on">On Time</span></td>
+            <td class="depart">9:00 AM<span class="city">Chicago, IL</span> <span class="airport">Chicago O'Hare Internation Airport (ORD)</span></td>
+            <td class="arrive">1:05 PM<span class="city">Miami, FL</span> <span class="airport">Miame International Airport (MIA)</span></td>
+          </tr>
+           <tr>
+            <td class="flight">4487 <span class="airline">Delta</span> <span class="status on">On Time</span></td>
+            <td class="depart">12:40 PM<span class="city">Chicago, IL</span> <span class="airport">Chicago O'Hare Internation Airport (ORD)</span></td>
+            <td class="arrive">3:09 PM<span class="city">Salt Lake City, UT</span> <span class="airport">San Lake City International Airport (SLC)</span></td>
+          </tr>
+           <tr>
+            <td class="flight">1051 <span class="airline">American Airlines</span> <span class="status delay">Delayed</span></td>
+            <td class="depart">12:55 PM<span class="city">Chicago, IL</span> <span class="airport">Chicago O'Hare Internation Airport (ORD)</span></td>
+            <td class="arrive">3:50 PM<span class="city">San Francisco, CA</span> <span class="airport">Austin-Bergstrom International Airport (AUS)</span></td>
+          </tr>
+           <tr>
+            <td class="flight">1977 <span class="airline">Delta</span> <span class="status cancel">Cancelled</span></td>
+            <td class="depart">6:00 PM<span class="city">Chicago, IL</span> <span class="airport">Chicago O'Hare Internation Airport (ORD)</span></td>
+            <td class="arrive">9:05 PM<span class="city">Atlanta, GA</span> <span class="airport">Hartsfield-Jackson Alanta International Airport (ATL)</span></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+
+    </section>
+   </div> 
+
     <div class="container">
 
     <section class="divider">
       <h3 class="experimentheader">Forms</h3>
-      <p>You may contact me with your comments using the form below</p>
-      
-      <form action="" method="post">
-        <label>First Name</label>
-        <input type="text" name="first-name">
-        <label>Last Name</label>
-        <input type="text" name="last-name">
-        <label>Email</label>
-        <input type="text" name="email">
-        <label>Please type your note here</label>
-        <textarea name="note"></textarea>
-        <input type="radio" name="contact" value="Yes"> Yes
-        <input type="radio" name="contact" value="No"> No
-        <label>Current Date</label>
-        <input type="date" name="date">
-        <input type="submit">
 
-      </form>
+        <p>You may contact me with your comments using the form below</p>
+        
+        <form action="" method="post">
+          <label>First Name</label>
+          <input type="text" name="first-name">
+          <label>Last Name</label>
+          <input type="text" name="last-name">
+          <label>Email</label>
+          <input type="text" name="email">
+          <label>Please type your note here</label>
+          <textarea name="note"></textarea>
+          <input type="radio" name="contact" value="Yes"> Yes
+          <input type="radio" name="contact" value="No"> No
+          <label>Current Date</label>
+          <input type="date" name="date">
+          <input type="submit">
+
+        </form>
+
+
+  
 
      
     </section>
