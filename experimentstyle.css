@@ -42,7 +42,6 @@ th.flight, th.depart, th.arrive {
 
 th.flight {
   border-top-left-radius: 10px;
-  padding-left: 50px;
 }
 
 th.arrive {
@@ -58,10 +57,10 @@ td.botright {
 }
 
 td {
-  padding: 20px;
+  padding: 20px 10px 20px 20px;
 }
 
-.flight {
+td.flight {
   padding-left: 50px;
 }
 
